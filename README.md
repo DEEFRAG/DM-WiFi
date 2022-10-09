@@ -11,3 +11,10 @@ dm-wifi_stream.py:
 What it does: See the Live-Stream of the DM WiFi Microscope in your Browser. It sets up a Server and presents a MJPG Stream to the URL: http://127.0.0.1:8081/cam.mjpg or you can also use http://127.0.0.1:8081/cam.html
 
 How to use it: connect your device with the DM WiFi Microscope. Then run the script in a terminal window like this: python3 dm-wifi_stream.py
+
+
+dm-wifi_ffplay.py:
+
+Inspired by the https://github.com/HoffmannP/A9/blob/main/a9.py file i created this version to pipe the Video-Stream to ffplay.
+
+How to use it: connect your device with the DM WiFi Microscope. Then run the script in a terminal window like this: python3 dm-wifi_ffplay.py | ffplay -
